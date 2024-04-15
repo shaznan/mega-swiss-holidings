@@ -1,1 +1,2 @@
-# mega-swiss-holidings
+# Repository of the website Mega Swiss Holdings
+
