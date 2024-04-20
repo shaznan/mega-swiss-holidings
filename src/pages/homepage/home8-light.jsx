@@ -49,7 +49,7 @@ const Homepage = () => {
         <NavbarArch navbarRef={navbarRef} theme="themeL" />
         <Intro5 />
         <AboutUs6 />
-        <Services6 />
+        {/* <Services6 /> */}
         <WorksStyle5 />
         <CaseStudy />
         <Team3 />

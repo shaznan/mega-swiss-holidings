@@ -18,7 +18,7 @@ const AboutUs6 = () => {
                     className="bg-img bg-fixed"
                     style={{ backgroundImage: "url(/img/arch/hero.jpg)" }}
                   >
-                    25
+                    03
                   </h2>
                   <p>Years Of Experience</p>
                 </div>
@@ -39,11 +39,12 @@ const AboutUs6 = () => {
                 elegance.
               </p>
 
-              <Link href={`/about/about-dark`}>
+{/* Need to enable  */}
+              {/* <Link href={`/about/about-dark`}>
                 <a className="butn bord mt-30">
                   <span>About Us</span>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

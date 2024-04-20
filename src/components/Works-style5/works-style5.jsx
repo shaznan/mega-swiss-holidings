@@ -16,7 +16,7 @@ const WorksStyle5 = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h2 className="wow fadeIn" data-wow-delay=".3s">
-                Projects
+                Product Offerings
               </h2>
             </div>
           </div>
@@ -29,9 +29,9 @@ const WorksStyle5 = () => {
               <span data-filter="*" className="active">
                 All
               </span>
-              <span data-filter=".brand">Interior</span>
-              <span data-filter=".web">Architecture</span>
-              <span data-filter=".graphic">Residential</span>
+              <span data-filter=".brand">Perfumes</span>
+              <span data-filter=".web">Deodrants</span>
+              {/* <span data-filter=".graphic">Residential</span> */}
             </div>
           </div>
 
