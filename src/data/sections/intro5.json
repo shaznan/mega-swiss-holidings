@@ -2,28 +2,28 @@
   {
     "id": 1,
     "title": {
-      "first": "Exclusive",
-      "second": "Distributor"
+      "first": "Exclusive Distributor",
+      "second": "Of SPPC perfumes"
     },
     "content": "Mega Swiss Holdings, based in Sri Lanka, is the proud exclusive distributor of SPPC perfumes from France, bringing premium fragrances to our shores.",
-    "image": "/img/perfumes/slide1.jpg"
+    "image": "https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/louis-pellissier-wJ2SaSiL5FA-unsplash%20(2).jpg?alt=media&token=cc0822ee-8a31-4fa5-a842-2821f4e47e0f"
   },
   {
     "id": 2,
     "title": {
-      "first": "Premium",
-      "second": "Perfumes"
+      "first": "Essence of Paris in ",
+      "second": "Every Scent"
     },
     "content": "Explore our diverse portfolio of high-quality perfumes and deodorants, each crafted to deliver unparalleled scents and long-lasting elegance.",
-    "image": "/img/perfumes/slide2.jpg"
+    "image": "https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/pexels-behrouz-alimardani-10873814.jpg?alt=media&token=6965f268-4be2-4e46-9210-cb4ee41745c4"
   },
   {
     "id": 3,
     "title": {
-      "first": "Unmatched",
-      "second": "Quality"
+      "first": "Fragrance Frontier",
+      "second": ""
     },
-    "content": "Every scent we offer is developed with meticulous care, ensuring only the finest quality products that exceed expectations with their delightful aromas.",
+    "content": "Step into the forefront of fragrance innovation with our exclusive SPPC perfumes. Mega Swiss Holdings brings you the best of Paris, each scent meticulously selected to elevate your essence with unparalleled quality.",
     "image": "/img/perfumes/slide3.jpg"
   }
 ]
