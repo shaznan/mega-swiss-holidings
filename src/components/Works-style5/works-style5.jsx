@@ -37,22 +37,21 @@ const WorksStyle5 = () => {
 
           <div className="gallery full-width">
             <div
-              className="col-md-6 items graphic lg-mr wow fadeInUp"
+              className="col-md-6 items brand lg-mr wow fadeInUp"
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
+                {/* <Link href={`/project-details2/project-details2-dark`}> */}
                   <a className="imago wow">
-                    <img src="/img/arch/work/1.jpg" alt="image" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FIvanhoe.png?alt=media&token=b18fd02b-62d7-4125-80f6-5e3c18f2cfe9" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                {/* </Link> */}
               </div>
               <div className="cont">
-                <h5>BUGANVILLA HOUSE</h5>
+                <h5>IvanHoe</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="/works/works-dark">Arch</Link>,
-                  <Link href="/works/works-dark">Interior</Link>
+                  <Link href="/works/works-dark">EAU DE TOILETTE</Link>
                 </span>
               </div>
             </div>
@@ -64,16 +63,15 @@ const WorksStyle5 = () => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/arch/work/2.jpg" alt="image" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FIncidence.png?alt=media&token=4ff459dc-84b5-4cc9-9e5d-a9b0b7937138" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
               </div>
               <div className="cont">
-                <h5>The Concept</h5>
+                <h5>Incidence</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="/works/works-dark">Arch</Link>,
-                  <Link href="/works/works-dark">Interior</Link>
+                  <Link href="/works/works-dark">EAU DE TOILETTE</Link>
                 </span>
               </div>
             </div>
@@ -85,16 +83,15 @@ const WorksStyle5 = () => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/arch/work/5.jpg" alt="image" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FChairman.png?alt=media&token=a67001d3-cae7-4842-bf46-7ad348622274" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
               </div>
               <div className="cont">
-                <h5>Private House</h5>
+                <h5>Chairman</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="/works/works-dark">Arch</Link>,
-                  <Link href="/works/works-dark">Interior</Link>
+                  <Link href="/works/works-dark">EAU DE TOILETTE</Link>,
                 </span>
               </div>
             </div>
