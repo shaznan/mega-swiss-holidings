@@ -16,22 +16,24 @@ const FooterArch = () => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <h6>Official Address</h6>
+                    <p>36, Norrise Avenue Borella Colombo 08</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <p>megaswissholdings@gmail.com</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <p>+94 76 751 5405</p>
+                    <p>+94 77 777 8610</p>
+                    <p>+94 72 937 5964</p>
                   </div>
                 </li>
               </ul>
@@ -40,33 +42,9 @@ const FooterArch = () => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Recent News</h5>
+                <h5>Subscribe to our newsletter</h5>
               </div>
               <ul>
-                <li>
-                  <div className="img">
-                    <img src="/img/blog/1.jpg" alt="" />
-                  </div>
-                  <div className="sm-post">
-                    <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress
-                      Journal.
-                    </p>
-                    <span className="date main-color">14 sep 2022</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <img src="/img/blog/2.jpg" alt="" />
-                  </div>
-                  <div className="sm-post">
-                    <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress
-                      Journal.
-                    </p>
-                    <span className="date main-color">14 sep 2022</span>
-                  </div>
-                </li>
                 <li>
                   <div className="subscribe">
                     <input type="text" placeholder="Type Your Email" />
@@ -95,13 +73,9 @@ const FooterArch = () => {
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>
-              <div className="copy-right">
+              <div className="copy-right text-sm">
                 <p>
-                  © 2022, Vie Template. Made with passion by
-                  <a href="#0" className="main-color">
-                    ThemesCamp
-                  </a>
-                  .
+                Copyright 2004-2024 © MegaSwissHoldings (pvt) Ltd. All Rights Reserved.
                 </p>
               </div>
             </div>

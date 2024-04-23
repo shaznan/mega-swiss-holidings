@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Vie</title>
+        <title>Mega Swiss Holdings - Sri Lanka's premium perfume distributers</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />
