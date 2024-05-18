@@ -15,7 +15,7 @@ const ContactArch = () => {
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
     <section
-      id="contact-arch"
+      id="contact"
       className="contact-sec style2 section-padding position-re bg-img"
       style={{ backgroundImage: "url(/img/patrn1.png)" }}
     >

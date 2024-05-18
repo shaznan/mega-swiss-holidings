@@ -1,6 +1,4 @@
-/* eslint-disable @next/next/no-page-custom-font */
-/* eslint-disable @next/next/no-css-tags */
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Head from "next/head";
 import LightTheme from "../../layouts/Light";
 import Team3 from "../../components/Team3/team3";
@@ -16,22 +14,26 @@ import ContactArch from "../../components/Contact-arch/contact-arch";
 import TestimonialsArch from "../../components/Testimonials-arch/testimonials-arch";
 
 const Homepage = () => {
-  const navbarRef = React.useRef(null);
-  React.useEffect(() => {
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
+  const navbarRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const navbar = navbarRef.current;  // Get the current reference
+      if (navbar) {  // Check if it is not null
+        if (window.pageYOffset > 300) {
+          navbar.classList.add("nav-scroll");
+        } else {
+          navbar.classList.remove("nav-scroll");
+        }
       }
-    });
-  }, [navbarRef]);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);  // Clean up the event listener
+    };
+  }, []);  // Empty dependency array ensures this effect runs only once after the initial render
+
   return (
     <>
       <Head>

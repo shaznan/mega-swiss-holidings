@@ -1,187 +1,58 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
-/* eslint-disable @next/next/no-img-element */
-import React from "react";
-import { Link } from "react-scroll";
-import appData from "../../data/app.json";
-import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
-import Image from 'next/image'
-const NavbarArch = ({ navbarRef, theme }) => {
-  
-  console.log(theme, "theme")
+import React, { useEffect, useState } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
+import Image from 'next/image';
+
+const NavbarArch = ({ theme }) => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg" ref={navbarRef}>
-      <div className="container">
-        <a className="" href="/">
+    <nav className={`navbar ${isSticky ? 'bg-black bg-opacity-60 backdrop-blur-[50px] shadow-md' : 'bg-transparent'} fixed top-0 inset-x-0 z-50 transition-colors duration-300`}>
+      <div className="container mx-auto px-4 flex justify-between items-center">
+        <a href="/">
           {theme ? (
             theme === "themeL" ? (
-              // <img src='/img/MSH_logo.png' alt="logo" width={500} height="500" />
               <Image
-              src="/img/logo_light.png"
-              width={280}
-              height={40}
-              alt="Picture of the author"
-            />
+                src="/img/logo_light.png"
+                width={280}
+                height={40}
+                alt="Mega swiss holding"
+              />
             ) : (
-              <h2 className="text-white">Hello</h2>
-              
+              <Image
+                src="/img/logo_dark.png"
+                width={280}
+                height={40}
+                alt="Mega swiss holding"
+              />
             )
           ) : (
-              <h2 className="text-black">Hello</h2>
-            
+            <Image
+              src="/img/logo_dark.png"
+              width={280}
+              height={40}
+              alt="Mega swiss holding"
+            />
           )}
         </a>
-
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          onClick={handleMobileDropdown}
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="icon-bar">
-            <i className="fas fa-bars"></i>
-          </span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto ">
-            <li className="nav-item dropdown " onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle "
-                data-toggle="dropdown"
-                data-scroll-nav="0"
-              >
-                Home
-              </span>
-              <div className="dropdown-menu">
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home1-dark`}
-                >
-                  Main Home
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home2-dark`}
-                >
-                  Creative Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home5-dark`}
-                >
-                  Digital Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home4-dark`}
-                >
-                  Business One Page
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home3-dark`}
-                >
-                  Corporate Business
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home6-dark`}
-                >
-                  Modern Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home7-dark`}
-                >
-                  Freelancer
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home8-dark`}
-                >
-                  Architecture
-                </a>
-              </div>
-            </li>
-
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="po-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Works
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="team-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Team
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="testimonials-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Testimonials
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="blog-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Blog
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="contact-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
+        <div className="space-x-4 flex text-white font-semibold">
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="about" spy={true} smooth={true} offset={50} duration={500} activeClass="active">About</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="product_offerings" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Product Offerings</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="team" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Team</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="testimonials" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Testimonials</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="blog" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Blog</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="contact" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Contact</ScrollLink>
         </div>
       </div>
     </nav>
