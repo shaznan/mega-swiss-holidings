@@ -76,7 +76,7 @@ const Footer = ({ hideBGCOLOR }) => {
                       </a>
                     </Link>
                   </div>
-                  <div className="sm-post">
+                  {/* <div className="sm-post">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
                         <p>
@@ -90,7 +90,7 @@ const Footer = ({ hideBGCOLOR }) => {
                         <span className="date">14 sep 2022</span>
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </li>
                 <li>
                   <div className="subscribe">
@@ -120,18 +120,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>
-              <div className="copy-right">
-                <p>
-                  © 2022, Vie Template. Made with passion by
-                  <Link
-                    href="https://themeforest.net/user/themescamp/portfolio"
-                    
-                  >
-                    <a target="_blank">ThemesCamp</a>
-                  </Link>
-                  .
-                </p>
-              </div>
+
             </div>
           </div>
         </div>

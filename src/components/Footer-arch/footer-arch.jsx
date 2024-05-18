@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import appData from '../../data/app.json'
+import Image from "next/image";
 
 const FooterArch = () => {
   return (
@@ -57,7 +58,12 @@ const FooterArch = () => {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src={appData.lightLogo} alt="" />
+              <Image
+                src="/img/logo_light.png"
+                width={280}
+                height={40}
+                alt="Mega swiss holding"
+              />
               </div>
               <div className="social">
                 <a href="#0">
@@ -75,7 +81,7 @@ const FooterArch = () => {
               </div>
               <div className="copy-right text-sm">
                 <p>
-                Copyright 2004-2024 © MegaSwissHoldings (pvt) Ltd. All Rights Reserved.
+                Copyright 2020-2024 © MegaSwissHoldings (pvt) Ltd. All Rights Reserved.
                 </p>
               </div>
             </div>

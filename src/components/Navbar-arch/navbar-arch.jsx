@@ -47,12 +47,12 @@ const NavbarArch = ({ theme }) => {
           )}
         </a>
         <div className="space-x-4 flex text-white font-semibold">
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="about" spy={true} smooth={true} offset={50} duration={500} activeClass="active">About</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="product_offerings" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Product Offerings</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="team" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Team</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="testimonials" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Testimonials</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="blog" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Blog</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="contact" spy={true} smooth={true} offset={50} duration={500} activeClass="active">Contact</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="about" spy={true} smooth={true} offset={50} duration={500} >About</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="product_offerings" spy={true} smooth={true} offset={50} duration={500} >Product Offerings</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="team" spy={true} smooth={true} offset={50} duration={500} >Team</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="testimonials" spy={true} smooth={true} offset={50} duration={500} >Testimonials</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="blog" spy={true} smooth={true} offset={50} duration={500} >Blog</ScrollLink>
+          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact</ScrollLink>
         </div>
       </div>
     </nav>
