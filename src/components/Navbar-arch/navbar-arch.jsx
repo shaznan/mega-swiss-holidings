@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
-
+import Image from 'next/image'
 const NavbarArch = ({ navbarRef, theme }) => {
   
   console.log(theme, "theme")
@@ -12,15 +12,23 @@ const NavbarArch = ({ navbarRef, theme }) => {
   return (
     <nav className="navbar navbar-expand-lg" ref={navbarRef}>
       <div className="container">
-        <a className="logo" href="/">
+        <a className="" href="/">
           {theme ? (
             theme === "themeL" ? (
-              <img src={appData.darkLogo} alt="logo" />
+              // <img src='/img/MSH_logo.png' alt="logo" width={500} height="500" />
+              <Image
+              src="/img/logo_light.png"
+              width={280}
+              height={40}
+              alt="Picture of the author"
+            />
             ) : (
-              <img src={appData.lightLogo} alt="logo" />
+              <h2 className="text-white">Hello</h2>
+              
             )
           ) : (
-            <img src={appData.lightLogo} alt="logo" />
+              <h2 className="text-black">Hello</h2>
+            
           )}
         </a>
 
