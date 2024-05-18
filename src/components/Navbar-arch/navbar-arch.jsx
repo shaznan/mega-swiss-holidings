@@ -7,6 +7,8 @@ import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
 const NavbarArch = ({ navbarRef, theme }) => {
   
+  console.log(theme, "theme")
+
   return (
     <nav className="navbar navbar-expand-lg" ref={navbarRef}>
       <div className="container">
