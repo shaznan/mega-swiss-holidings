@@ -67,7 +67,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FIncidence.png?alt=media&token=4ff459dc-84b5-4cc9-9e5d-a9b0b7937138"
@@ -75,12 +75,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Incidence</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">EAU DE TOILETTE</Link>
+                  <div href="">EAU DE TOILETTE</div>
                 </span>
               </div>
             </div>
@@ -90,7 +90,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FChairman.png?alt=media&token=a67001d3-cae7-4842-bf46-7ad348622274"
@@ -98,12 +98,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Chairman</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">EAU DE TOILETTE</Link>,
+                  <div href="">EAU DE TOILETTE</div>,
                 </span>
               </div>
             </div>
@@ -113,7 +113,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FThallium%20Black.png?alt=media&token=65fe3a01-40e4-4cfb-a6e0-1114a184e7c3"
@@ -121,12 +121,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Thallium Black</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">EAU DE TOILETTE</Link>
+                  <div href="">EAU DE TOILETTE</div>
                 </span>
               </div>
             </div>
@@ -136,7 +136,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FRED%20PEARL.png?alt=media&token=c3e6124c-1c2e-4291-8b17-e696a68d0f47"
@@ -144,12 +144,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Red Pearl</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">EAU DE TOILETTE</Link>
+                  <div href="">EAU DE TOILETTE</div>
                 </span>
               </div>
             </div>
@@ -158,7 +158,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FJoli%20reve%20(1).png?alt=media&token=59c1ab25-a85b-4300-b56f-75a6643f50f7"
@@ -166,12 +166,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Joli Reve</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">EAU DE TOILETTE</Link>,
+                  <div href="">EAU DE TOILETTE</div>,
                 </span>
               </div>
             </div>
@@ -180,7 +180,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FSanderling%20shine%20(1).png?alt=media&token=347daa5f-3e70-4a17-88c4-11347fe65449"
@@ -188,12 +188,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>VILLAS IN SOCHI</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">EAU DE TOILETTE</Link>
+                  <div href="">EAU DE TOILETTE</div>
                 </span>
               </div>
             </div>
@@ -202,7 +202,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FPerfume%2FAkoya%20blue%20(1).png?alt=media&token=5c54f8bc-9ad6-45cb-8d7c-544648ebae94"
@@ -210,12 +210,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Akoya Blue</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">EAU DE TOILETTE</Link>,
+                  <div href="">EAU DE TOILETTE</div>,
                 </span>
               </div>
             </div>
@@ -225,7 +225,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FDeodrants%2FAviator.png?alt=media&token=cc5fa494-6472-4045-83e8-370ada4090df"
@@ -233,13 +233,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Aviator</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">Deodrant spray</Link>,
-                  <Link href="">For men</Link>,
+                  <div href="">Deodrant spray</div>,<div href="">For men</div>,
                 </span>
               </div>
             </div>
@@ -248,7 +247,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FDeodrants%2FChancellor.png?alt=media&token=f3b13380-656c-4dc9-a467-a21cc406b099"
@@ -256,13 +255,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Chancellor</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">Deodrant spray</Link>,
-                  <Link href="">For men</Link>,
+                  <div href="">Deodrant spray</div>,<div href="">For men</div>,
                 </span>
               </div>
             </div>
@@ -271,7 +269,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FDeodrants%2FIvanhoe%20(1).png?alt=media&token=5a0e4d3b-ac89-4fd5-a8a6-384736e6db88"
@@ -279,13 +277,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Ivanhoe</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">Deodrant spray</Link>,
-                  <Link href="">For men</Link>,
+                  <div href="">Deodrant spray</div>,<div href="">For men</div>,
                 </span>
               </div>
             </div>
@@ -294,7 +291,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FDeodrants%2FMondaine.png?alt=media&token=6adc6521-26e7-4045-a0a4-ef84a515810a"
@@ -302,13 +299,13 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Mondaine</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">Deodrant spray</Link>,
-                  <Link href="">For women</Link>,
+                  <div href="">Deodrant spray</div>,<div href="">For women</div>
+                  ,
                 </span>
               </div>
             </div>
@@ -317,7 +314,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FDeodrants%2FRichman.png?alt=media&token=37861dfb-8d59-4032-83fc-f3f05d853d70"
@@ -325,13 +322,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Rich man</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">Deodrant spray</Link>,
-                  <Link href="">For men</Link>,
+                  <div href="">Deodrant spray</div>,<div href="">For men</div>,
                 </span>
               </div>
             </div>
@@ -340,7 +336,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FDeodrants%2FVerona.png?alt=media&token=14b8645c-abdd-41bb-9c91-fc40db1e31a4"
@@ -348,13 +344,13 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Verona</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">Deodrant spray</Link>,
-                  <Link href="">For women</Link>,
+                  <div href="">Deodrant spray</div>,<div href="">For women</div>
+                  ,
                 </span>
               </div>
             </div>
@@ -363,7 +359,7 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={``}>
+                <div href={``}>
                   <a className="imago wow">
                     <img
                       src="https://firebasestorage.googleapis.com/v0/b/megaswissholdings-4c26c.appspot.com/o/Product%20portfolio%2FDeodrants%2FWriter%20gold.png?alt=media&token=d7723a33-a3d5-4037-8111-e758bfc139fa"
@@ -371,13 +367,12 @@ const WorksStyle5 = () => {
                     />
                     <div className="item-img-overlay"></div>
                   </a>
-                </Link>
+                </div>
               </div>
               <div className="cont">
                 <h5>Writer Gold</h5>
                 <span className="tags main-color custom-font">
-                  <Link href="">Deodrant spray</Link>,
-                  <Link href="">For men</Link>,
+                  <div href="">Deodrant spray</div>,<div href="">For men</div>,
                 </span>
               </div>
             </div>
