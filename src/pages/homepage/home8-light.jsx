@@ -18,8 +18,9 @@ const Homepage = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const navbar = navbarRef.current;  // Get the current reference
-      if (navbar) {  // Check if it is not null
+      const navbar = navbarRef.current; // Get the current reference
+      if (navbar) {
+        // Check if it is not null
         if (window.pageYOffset > 300) {
           navbar.classList.add("nav-scroll");
         } else {
@@ -30,9 +31,9 @@ const Homepage = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);  // Clean up the event listener
+      window.removeEventListener("scroll", handleScroll); // Clean up the event listener
     };
-  }, []);  // Empty dependency array ensures this effect runs only once after the initial render
+  }, []); // Empty dependency array ensures this effect runs only once after the initial render
 
   return (
     <>
@@ -53,10 +54,10 @@ const Homepage = () => {
         <AboutUs6 />
         {/* <Services6 /> */}
         <WorksStyle5 />
-        <CaseStudy />
-        <Team3 />
-        <TestimonialsArch />
-        <LatestNews />
+        {/* <CaseStudy /> */}
+        {/* <Team3 /> */}
+        {/* <TestimonialsArch /> */}
+        {/* <LatestNews /> */}
         <ContactArch />
         <FooterArch />
       </LightTheme>
