@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import appData from '../../data/app.json'
+import appData from "../../data/app.json";
 import Image from "next/image";
 
 const FooterArch = () => {
@@ -58,14 +58,14 @@ const FooterArch = () => {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-              <Image
-                src="/img/logo_light.png"
-                width={280}
-                height={40}
-                alt="Mega swiss holding"
-              />
+                <Image
+                  src="/img/logo_light.png"
+                  width={280}
+                  height={40}
+                  alt="Mega swiss holding"
+                />
               </div>
-              <div className="social">
+              {/* <div className="social">
                 <a href="#0">
                   <i className="fab fa-facebook-f"></i>
                 </a>
@@ -78,10 +78,11 @@ const FooterArch = () => {
                 <a href="#0">
                   <i className="fab fa-youtube"></i>
                 </a>
-              </div>
+              </div> */}
               <div className="copy-right text-sm">
                 <p>
-                Copyright 2020-2024 © MegaSwissHoldings (pvt) Ltd. All Rights Reserved.
+                  Copyright 2020-2024 © MegaSwissHoldings (pvt) Ltd. All Rights
+                  Reserved.
                 </p>
               </div>
             </div>
