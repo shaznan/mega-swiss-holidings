@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { Link as ScrollLink } from 'react-scroll';
-import Image from 'next/image';
+import React, { useEffect, useState } from "react";
+import { Link as ScrollLink } from "react-scroll";
+import Image from "next/image";
 
 const NavbarArch = ({ theme }) => {
   const [isSticky, setIsSticky] = useState(false);
@@ -10,15 +10,21 @@ const NavbarArch = ({ theme }) => {
       setIsSticky(window.scrollY > 50);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <nav className={`navbar ${isSticky ? 'bg-black bg-opacity-60 backdrop-blur-[50px] shadow-md' : 'bg-transparent'} fixed top-0 inset-x-0 z-50 transition-colors duration-300`}>
+    <nav
+      className={`navbar ${
+        isSticky
+          ? "bg-black bg-opacity-60 backdrop-blur-[50px] shadow-md"
+          : "bg-transparent"
+      } fixed top-0 inset-x-0 z-50 transition-colors duration-300`}
+    >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="/">
           {theme ? (
@@ -47,12 +53,42 @@ const NavbarArch = ({ theme }) => {
           )}
         </a>
         <div className="space-x-4 flex text-white font-semibold">
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="about" spy={true} smooth={true} offset={50} duration={500} >About</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="product_offerings" spy={true} smooth={true} offset={50} duration={500} >Product Offerings</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="team" spy={true} smooth={true} offset={50} duration={500} >Team</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="testimonials" spy={true} smooth={true} offset={50} duration={500} >Testimonials</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="blog" spy={true} smooth={true} offset={50} duration={500} >Blog</ScrollLink>
-          <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact</ScrollLink>
+          <ScrollLink
+            className="cursor-pointer py-2 px-4 hover:text-gray-700"
+            activeClass="text-yellow-active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            About
+          </ScrollLink>
+          <ScrollLink
+            className="cursor-pointer py-2 px-4 hover:text-gray-700"
+            activeClass="text-yellow-active"
+            to="product_offerings"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Product Offerings
+          </ScrollLink>
+          {/* <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="team" spy={true} smooth={true} offset={50} duration={500} >Team</ScrollLink> */}
+          {/* <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="testimonials" spy={true} smooth={true} offset={50} duration={500} >Testimonials</ScrollLink> */}
+          {/* <ScrollLink className="cursor-pointer py-2 px-4 hover:text-gray-700" activeClass="text-yellow-active" to="blog" spy={true} smooth={true} offset={50} duration={500} >Blog</ScrollLink> */}
+          <ScrollLink
+            className="cursor-pointer py-2 px-4 hover:text-gray-700"
+            activeClass="text-yellow-active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Contact
+          </ScrollLink>
         </div>
       </div>
     </nav>
